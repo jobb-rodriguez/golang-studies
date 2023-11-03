@@ -21,3 +21,14 @@ complex64 complex128
 ```go
 var var_name var_type = value
 ```
+
+# Short variable declaration
+Go will infer the type.
+
+```go
+numCars := 10 // inferred to be an integer
+
+temperature := 0.0 // temperature is inferred to be a floating point value because it has a decimal point
+
+var isFunny = true // isFunny is inferred to be a boolean
+```
