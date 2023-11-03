@@ -70,6 +70,9 @@ complex64 complex128 // imaginary numbers (rare)
 - float64
 - complex128
 
+> [!NOTE]
+> Specify the size only if needed.
+
 ## Type Conversion
 ```go
 temperatureInt := 88
