@@ -32,3 +32,13 @@ temperature := 0.0 // temperature is inferred to be a floating point value becau
 
 var isFunny = true // isFunny is inferred to be a boolean
 ```
+
+# Type inference
+```go
+var i int
+j := i // j is also an int
+
+i := 42           // int
+f := 3.14         // float64
+g := 0.867 + 0.5i // complex128
+```
