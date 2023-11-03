@@ -42,3 +42,13 @@ i := 42           // int
 f := 3.14         // float64
 g := 0.867 + 0.5i // complex128
 ```
+
+# Same Line Declarations
+```go
+mileage, company := 80276, "Tesla"
+
+// is the same as
+
+mileage := 80276
+company := "Tesla"
+```
