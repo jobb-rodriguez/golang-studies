@@ -91,3 +91,8 @@ temperatureFloat := float64(temperatureInt)
 
 > [!NOTE]
 > Stray from the default types only if you're super concerned about performance and memory usage.
+
+# Constants
+```go
+const var_name = var_value
+```
