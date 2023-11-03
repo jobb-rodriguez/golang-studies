@@ -52,3 +52,26 @@ mileage, company := 80276, "Tesla"
 mileage := 80276
 company := "Tesla"
 ```
+
+# Type Sizes
+```go
+int  int8  int16  int32  int64 // whole numbers
+
+uint uint8 uint16 uint32 uint64 uintptr // positive whole numbers
+
+float32 float64 // decimal numbers
+
+complex64 complex128 // imaginary numbers (rare)
+```
+
+## Standard Sizes
+- int
+- uint
+- float64
+- complex128
+
+## Type Conversion
+```go
+temperatureInt := 88
+temperatureFloat := float64(temperatureInt)
+```
