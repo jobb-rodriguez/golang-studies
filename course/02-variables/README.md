@@ -93,6 +93,13 @@ temperatureFloat := float64(temperatureInt)
 > Stray from the default types only if you're super concerned about performance and memory usage.
 
 # Constants
+## Regular
 ```go
 const var_name = var_value
+```
+## Computed
+```go
+const firstName = "Lane"
+const lastName = "Wagner"
+const fullName = firstName + " " + lastName
 ```
