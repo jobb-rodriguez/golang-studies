@@ -78,3 +78,16 @@ complex64 complex128 // imaginary numbers (rare)
 temperatureInt := 88
 temperatureFloat := float64(temperatureInt)
 ```
+
+# Preferred Default Types
+- bool
+- string
+- int
+- uint32
+- byte
+- rune
+- float64
+- complex128
+
+> [!NOTE]
+> Stray from the default types only if you're super concerned about performance and memory usage.
