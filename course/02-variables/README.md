@@ -139,3 +139,13 @@ if height > 6 {
 - > greater than
 - <= less than or equal to
 - >= greater than or equal to
+
+## Initial Statement
+```go
+if INITIAL_STATEMENT; CONDITION {
+}
+
+if length := getLength(email); length < 1 {
+    fmt.Println("Email is invalid")
+}
+```
