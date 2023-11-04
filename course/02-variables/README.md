@@ -120,3 +120,22 @@ fmt.Printf("I am %f years old", 10.523)
 fmt.Printf("I am %.2f years old", 10.523)
 // I am 10.53 years old
 ```
+
+# Conditionals
+```go
+if height > 6 {
+    fmt.Println("You are super tall!")
+} else if height > 4 {
+    fmt.Println("You are tall enough!")
+} else {
+    fmt.Println("You are not tall enough!")
+}
+```
+
+## Comparison Operators
+- == equal to
+- != not equal to
+- < less than
+- > greater than
+- <= less than or equal to
+- >= greater than or equal to
