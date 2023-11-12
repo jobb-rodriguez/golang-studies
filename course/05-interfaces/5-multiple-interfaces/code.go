@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func (e email) cost() float64 {
-	if e.isSubscribed == false {
+	if !e.isSubscribed {
 		return 0.05 * float64(len(e.body))
 	}
 	return 0.01 * float64(len(e.body))
