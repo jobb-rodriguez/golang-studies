@@ -23,3 +23,6 @@ go mod init {REMOTE}/{USERNAME}/{module_name}
 Use remote to simplify downloading of packages.
 
 By convention, name the package the same as the directory.
+
+# Package Best Practices
+[Article](https://blog.boot.dev/golang/how-to-separate-library-packages-in-go/)
