@@ -13,3 +13,6 @@ go version
 
 go <file_name>
 ```
+
+# Reading Markdowns
+Use ```Command + K, V```.
